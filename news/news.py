@@ -43,8 +43,8 @@ def extract_extended_summary(url, initial_summary):
     return extended_summary
 
 if __name__ == "__main__":
-    bot_token = '6593268048:AAHqUx2yOQKY5RRe_J_ZlJXU9_yKHroSPXE'
-    chat_id = '6713587065'
+    bot_token = 'fill this area'
+    chat_id = 'fill this area'
     feed_url = "https://www.coindesk.com/feed"  # Example, adjust as needed
 
     news_items = extract_news_from_rss(feed_url)
